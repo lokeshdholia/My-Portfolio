@@ -1,0 +1,149 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Outfit;
+    /* box-sizing: border-box; */
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #19376D;
+}
+
+header nav p {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    /* text-decoration: none; */
+    list-style: none;
+    gap: 30px;
+    /* float: right; */
+}
+
+nav {
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    /* border: #FFF 1px solid; */
+    margin: 50px 100px 50px 100px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    /* text-align: right; */
+}
+
+.name_section {
+    font-size: 72px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.para_section {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* .section1 {
+   
+} */
+.head_section {
+    margin: 0px 120px 50px 100px;
+    display: flex;
+    /* border: #FFF 1px solid; */
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+.img_section {
+    border-radius: 50%;
+    background-color: #375a9d;
+    /* margin: 0; */
+}
+
+.about_section {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.fa-solid{
+    margin: 40px 10px 40px 10px;
+}
+.fa-solid1{
+    height: 50px;
+    width: 50px;
+    margin: 35px 10px 35px 10px;
+}
+.fa-solid2{
+    height: 50px;
+    width: 50px;
+    margin: 35px 10px 35px 10px;
+}
+.section2 {
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: black;
+    border-radius: 15px;
+    width: 1211px;
+    height: 639px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.img_section1 {
+    margin-left: 43px;
+}
+
+.section_a {
+    width: 515px;
+    height: 128px;
+    border-radius: 20px;
+    background-color: #a5d7e8;
+    background-image: linear-gradient(90deg, #a5d7e8 0%, #000000 40%);
+}
+.img_section2{
+    /* position: absolute; */
+    margin-top: 70px;
+    
+    display: flex;
+}
+.img_section3{
+    position: absolute;
+    margin-top: 50px;
+    right: 210px;
+    /* top: 10px; */
+    display: flex;
+}
+.img_section4{
+    position: absolute;
+    margin-top: 50px;
+    right: 195px;
+    top: 1090px; ;
+    display: flex;
+}
+.frontend{
+    color: #FFF;
+font-size: 25px;
+font-weight: 600;
+letter-spacing: 1.25px;
+}
+.frontend1{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1.25px;
+}
