@@ -192,9 +192,16 @@ nav ul li a {
 .experience {
     display: flex;
     margin-left: 10px;
-    gap: 50PX;
+    margin-bottom: 60px;
+    gap: 80px;
 }
 
+.experience1{
+    display: flex;
+    margin-left: 10px;
+    /* margin-bottom: 60px; */
+    gap: 80px;
+}
 .experience p {
     text-align: center;
     color: #FFF;
@@ -236,7 +243,7 @@ background: linear-gradient(90deg, #101012 0%, rgba(25, 55, 109, 0.00) 100%);
     color: #FFF;
     /* font-family: Roboto; */
     font-size: 30px;
-    margin-top: 65px;
+    margin-top: 5px;
     /* font-style: normal; */
     font-weight: 500;
     /* line-height: normal; */
@@ -259,16 +266,16 @@ background: linear-gradient(90deg, #101012 0%, rgba(25, 55, 109, 0.00) 100%);
 
 .b {
     margin-top: 50px;
-    padding-top: 10px;
-    padding-bottom: 25px;
+    padding-top: 10px; 
+     padding-bottom: 10px;
     /* margin-bottom: 35px; */
     border-radius: 10px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background: linear-gradient(90deg, #19376D 0%, rgba(25, 55, 109, 0.00) 100%);
     /* background-color: #375a9d; */
     display: flex;
     width: 875px;
-    height: 225px;
+    height: 125px;
     /* flex-shrink: 0; */
 }
 .c {
@@ -291,7 +298,8 @@ background: linear-gradient(90deg, #101012 0%, rgba(25, 55, 109, 0.00) 100%);
 }
 
 .b div img {
-    margin: 70px 35px 70px 35px;
+    margin: 15px 35px 15px 35px;
+    border-radius: 50px;
 }
 
 .section4_a {
@@ -324,6 +332,7 @@ background: linear-gradient(90deg, #101012 0%, rgba(25, 55, 109, 0.00) 100%);
 .section4_d button {
     /* display: flex; */
     color: #FFF;
+    /* text-decoration: none; */
     font-size: 25px;
     font-weight: 400;
     border-radius: 100px;
@@ -345,8 +354,9 @@ background: linear-gradient(90deg, #101012 0%, rgba(25, 55, 109, 0.00) 100%);
     margin-left: 20px;
     margin-right: 20px;
 }
-.section4_e button {
+.section4_e a {
     width: 124px;
+    text-decoration: none;
     height: 40px;
     border-radius: 100px;
     background: #576CBC;
@@ -386,8 +396,12 @@ padding: 60px 250px 0px 100px;
     color: #FFF;
 font-size: 30px;
 font-weight: 400;
+text-decoration: none;
 letter-spacing: 1.5px;
 }
-.section5 div div{
+.section5 div div {
     margin: 30px;
+}
+.section5 div div a {
+    margin-top: 5px;
 }
